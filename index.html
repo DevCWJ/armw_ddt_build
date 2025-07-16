@@ -10,7 +10,19 @@
   </head>
   <body class="dark">
     <div id="unity-container" class="unity-desktop">
+      <!-- YouTube 영상 표시용 컨테이너 -->
+      <!-- /* style.css unity-container를 position:relative로 만들어야
+   내부 절대위치 요소가 제대로 붙습니다 */-->
       <canvas id="unity-canvas"></canvas>
+      <div id="youtube-container"
+           style="
+         position: absolute;
+         display: none;
+         pointer-events: auto;
+         overflow: hidden;
+         z-index: 10;
+       ">
+      </div>
     </div>
     <div id="loading-cover" style="display:none;">
       <div id="unity-loading-bar">
