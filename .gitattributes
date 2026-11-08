@@ -1,1 +1,2 @@
 Build/*.data filter=lfs diff=lfs merge=lfs -text
+Videos/help/help_map_4.mp4 filter=lfs diff=lfs merge=lfs -text
